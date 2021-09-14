@@ -1,0 +1,29 @@
+#main-heading {
+    color: darkgreen;
+}
+.font-adj {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+p {
+    line-height: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+div > a {
+    text-decoration: none;
+}
+#upper-case {
+    text-transform: uppercase;
+}
+a:hover {
+    text-decoration: underline;
+}
+#picture {
+    float:left;
+    margin-right: 25px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+ul {
+    display: table;
+}
