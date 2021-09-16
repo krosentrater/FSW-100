@@ -1,0 +1,29 @@
+h1 {
+    color: #000BFF;
+}
+a:hover {
+    color: #0D877D;
+}
+a {
+    color: #C60404;
+}
+.header {
+    background-color: #ffa07a;
+    border: 2px solid #000000;
+    font-size: 25px;
+    padding: 5px;
+}
+.data {
+    background-color: #92C8BF;
+    border: 2px solid #000000;
+    padding: 5px;
+    font-weight: 500;
+}
+#footer {
+    font-weight: 700;
+    border: 5px solid #000000;
+    color: #000000;
+    padding: 10px;
+    background-color: #B392C8;
+}
+h2, h3, h4, h5 { color: #000BFF; }
