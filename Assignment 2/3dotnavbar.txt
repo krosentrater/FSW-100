@@ -1,0 +1,82 @@
+.navbar {
+    position: relative;
+    float: left;
+}
+.navbar-links {
+    display: none;
+    position: absolute;
+    background-color: rgba(173, 173, 173, 0.3);
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+    padding: 12px 16px;
+    z-index: 1;
+    border-radius: 5px;
+}
+.navbar:hover .navbar-links {
+    display: block;
+}
+.nav-logo div {
+    height: 4px;
+    background-color: red;
+    margin: 5px 0px;
+    border-radius: 25px;
+}
+.nav-logo {
+    width: 30px;
+    display: block;
+    margin: 1em 0 0 1em;
+}
+.one {
+    width: 30px;
+}
+.two {
+    width: 25px;
+}
+.three {
+    width: 30px;
+}
+.links-only a {
+    text-decoration: none;
+    display: flex;
+    padding: 5px;
+    font-size: 25px;
+    color: black;
+}
+.link-one:hover {
+    color: red;
+}
+.link-two:hover {
+    color: red;
+}
+.link-three:hover {
+    color: red;
+}
+.link-four:hover {
+    color: red;
+}
+.welcome-message {
+    font-size: 50px;
+    width: 100%;
+    margin-left: 100px;
+}
+header {
+    text-decoration: underline;
+    display: flex;
+}
+
+  <header>
+            <div class='navbar'>
+                <div class='nav-logo'>
+                    <div class='one'></div>
+                    <div class='two'></div>
+                    <div class='three'></div>
+                </div>
+                <div class='navbar-links'>
+                    <div class='links-only'>
+                    <a href='' class='link-one'>Home</a>
+                    <a href='' class='link-two'>Adopt</a>
+                    <a href='' class='link-three'>About</a>
+                    <a href='' class='link-four'>Donate</a>
+                    </div>
+                </div>
+            </div>
